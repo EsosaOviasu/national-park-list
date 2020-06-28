@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Repo-List</title>
+</head>
+<body>
+    <header>
+        <h1>National Parks Directory</h1>
+      </header>
+      <main>
+        <form class="repoForm">
+            <label>Choose a State</label>
+            <input type="text" id="users" placeholder="Type username here" required>
+            <button type="submit">Search</button>
+        </form>
+        <ul class="results hidden">
+            <li>
+                <div>
+                    <h3 class="parkName">Park Name</h3>
+                </div>
+                <div>
+                    <p class="parkDescription">Park Description</p>
+                </div>
+                <div>
+                    <a href="park-website-url" class="parkUrl">park-website-url</a>
+                </div>
+            </li>
+        </ul>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>

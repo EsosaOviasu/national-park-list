@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(238, 255, 251);
+    color: black;
+}
+
+h1 {
+    margin: auto;
+}
+
+ul {
+    list-style-type: square;
+}
+
+/*.hidden {
+    display: none;
+}
