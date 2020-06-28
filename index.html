@@ -4,32 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Repo-List</title>
+    <title>Park-List</title>
 </head>
 <body>
     <header>
-        <h1>National Parks Directory</h1>
-      </header>
-      <main>
-        <form class="repoForm">
-            <label>Choose a State</label>
-            <input type="text" id="users" placeholder="Type username here" required>
-            <button type="submit">Search</button>
-        </form>
-        <ul class="results hidden">
-            <li>
+        <h1>National Park Directory</h1>
+    </header>
+        <main>
+            <form class="parkForm">
+                <label>Enter a State Code</label>
+                <input type="text" id="state" placeholder="NY" required>
+                <button type="submit">Search</button>
                 <div>
-                    <h3 class="parkName">Park Name</h3>
+                    <label>Maximum results</label>
+                    <input type="number" id="max-num" value="10">
                 </div>
-                <div>
-                    <p class="parkDescription">Park Description</p>
-                </div>
-                <div>
-                    <a href="park-website-url" class="parkUrl">park-website-url</a>
-                </div>
-            </li>
-        </ul>
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+            </form>
+            <ul class="results hidden">
+                <li class="result-list-item">
+                    <div>
+                        <h3 class="parkName">Park Name</h3>
+                    </div>
+                    <div>
+                        <h4 class="parkAddress">Park Address</h4>
+                    </div>
+                    <div>
+                        <p class="parkDescription">Park Description</p>
+                    </div>
+                    <div>
+                        <a href="park-website-url" class="parkUrl">park-website-url</a>
+                    </div>
+                </li>
+            </ul>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
 </body>
 </html>

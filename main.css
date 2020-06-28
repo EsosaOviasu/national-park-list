@@ -6,16 +6,25 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(238, 255, 251);
     color: black;
+    text-align: center;
 }
 
 h1 {
-    margin: auto;
+    padding-bottom: 3vw;
+}
+
+.parkForm {
+    display: inline-block;
+}
+
+input {
+    width: 3vw;
 }
 
 ul {
-    list-style-type: square;
+    text-align: left;
 }
 
-/*.hidden {
+.hidden {
     display: none;
 }
